@@ -6,11 +6,11 @@ def resta(x, y):
     return x - y
 
 
-def multiply(x, y):
+def multiplicacion(x, y):
     return x * y
 
 
-def divide(x, y):
+def division(x, y):
     return x / y
 
 
@@ -30,10 +30,10 @@ while True:
             print(num1, "-", num2, "=", resta(num1, num2))
 
         elif choice == '3':
-            print(num1, "*", num2, "=", multiply(num1, num2))
+            print(num1, "*", num2, "=", multiplicacion(num1, num2))
 
         elif choice == '4':
-            print(num1, "/", num2, "=", divide(num1, num2))
+            print(num1, "/", num2, "=", division(num1, num2))
         break
     elif choice == '5':
         print("Salida")
